@@ -1,0 +1,86 @@
+body{
+    background: url(./assets/images/bg_main.gif)center;
+}
+.cont{
+    width: 996px;
+    margin: 0 auto;
+}
+/* topbar start */
+.topbar{
+    background: rgb(147, 47, 173);
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    line-height: 30px;
+    border-bottom: 2px solid rgb(188, 45, 45);
+}
+.topbar_right p{
+    display: inline-block;
+    border-right: 2px solid rgb(167, 157, 157);
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.topbar_right a{
+    color: white;
+}
+/* topbar end */
+/* header start */
+.logo{
+    height: 110px;
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 50px;
+}
+.logo_search input{
+    width: 77%;
+    font-size: 15px;
+    border: 1px solid rgb(230, 205, 205);
+    border-radius: 5px;
+    padding: 5px;
+}
+.logo_search button{
+    font-size: 13px;
+    border: 1px solid rgb(230, 205, 205);
+    border-radius: 5px;
+    padding: 5px;
+    background: #ddd;
+}
+.logo_right{
+    padding-top: 35px;
+}
+.logo1{
+    border-right: 2px solid #ddd;
+    height: 40px;
+    padding-right: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 25%;
+}
+.logo2 p{
+    font-size: 13px;
+    color: rgb(105, 50, 157);
+    position: relative;
+    top: 18%;
+}
+/* header end */
+/* menu start */
+.navbar li a{
+    border-right: 2px solid #ddd;
+    font-size: 15px;
+}
+.navbar ul li a:hover{
+    background: green;
+}
+/* menu end */
+/* body start */
+.banner{
+    border: 2px solid red;
+    padding: 10px;
+}
+.slider{
+    padding-top: 15px;
+}
+/* body end */
